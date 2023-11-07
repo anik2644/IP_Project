@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use('/notification', notificationsRouter)
 
-app.get('/', (req, res) => {
+app.get('/notification', (req, res) => {
   res.send("Notification server")
 })
 

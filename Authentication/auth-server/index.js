@@ -14,11 +14,12 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get('/', (req,res)=>{
-    res.send("User handler server")
+app.get('/user', (req,res)=>{
+    res.send("Linkedin User handler server")
 })
 
 app.use('/user', userRouter);
+
 
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);

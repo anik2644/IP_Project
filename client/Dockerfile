@@ -1,11 +1,12 @@
 FROM node:18-alpine
 
-WORKDIR /linkedin/frontend
+WORKDIR /mini-linkedin/frontend
 
 COPY package.json .
+RUN npm install -g nodemon 
 
 RUN npm install
 
 COPY . .
 
-CMD ["npm", "start"]
+CMD ["nodemon", "npm", "start"] 
