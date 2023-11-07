@@ -5,6 +5,7 @@ const app = express();
 const dotenv = require('dotenv');
 const userRouter = require('./user-router/userRoutes.js');
 const connectDb = require('./database/db.js')
+const mongoose = require('mongoose')
 dotenv.config();
 
 const port = process.env.PORT
@@ -15,7 +16,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/user', (req,res)=>{
-    res.send("Linkedin User handler server")
+    res.send("Linkedin User handler servers")
 })
 
 app.use('/user', userRouter);

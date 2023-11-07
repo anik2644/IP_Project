@@ -16,12 +16,9 @@ const signupUser = async (req, res) => {
     const email = userInfo.email
     console.log("userinfo : ", userInfo)
 
-    try{
     const password = await bcrypt.hash(userInfo.signUpPass,10)
-    }
-    catch(e){
-        console.error("error signing up: ",e)
-    }
+    
+  
 
 
 
