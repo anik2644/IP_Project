@@ -5,9 +5,9 @@ const minioClient = new Minio.Client({
     port: 9000,
     useSSL: false,
     // accessKey: 'YpdoMeuft1yhcM9BLIFR',
-    accessKey:'aDXQuXYvIcve2XlDya88',
+    accessKey:'OPY4RYDlrbh7gx51fiUJ',
     // secretKey: 'Q6i79iIv40guXaKmMoPa2WeSnTeffgfRQyr1xgnU'
-    secretKey:'v2qoHnnYqgxKQWVrCzZywYbfQk2pRYElah2IztXV'
+    secretKey:'QjvNCVaN7npNomDLF1GaYFsePIvqG1SRKTvuZ3n2'
 });
 
 module.exports = minioClient;

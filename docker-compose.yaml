@@ -21,7 +21,7 @@ services:
       - '8000:8000'
     volumes:
       - ./Authentication/auth-server:/mini-linkedin/authentication
-      - ./mini-linkedin/authentication/node_modules
+      - /mini-linkedin/authentication/node_modules
   
   notification:
     build: ./Notification/notification-server
@@ -31,7 +31,7 @@ services:
       - '8001:8001'
     volumes:
       - ./Notification/notification-server:/mini-linkedin/notification
-      - ./mini-linkedin/notification/node_modules
+      - /mini-linkedin/notification/node_modules
 
   post:
     build: ./Post/post-server
@@ -42,7 +42,7 @@ services:
       - '8002:8002'
     volumes:
       - ./Post/post-server:/mini-linkedin/post
-      - ./mini-linkedin/post/node_modules
+      - /mini-linkedin/post/node_modules
 
   user_db:
     image: mongo:latest
