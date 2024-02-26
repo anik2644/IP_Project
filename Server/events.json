@@ -1,0 +1,85 @@
+{
+    "events": [
+      {
+        "id": 1,
+        "title": "Conference on Artificial Intelligence",
+        "date": "2024-03-15",
+        "location": "San Francisco, CA",
+        "description": "A conference discussing the latest advancements and applications in artificial intelligence.",
+        "organizer": "AI Society"
+      },
+      {
+        "id": 2,
+        "title": "Tech Expo 2024",
+        "date": "2024-04-10",
+        "location": "New York City, NY",
+        "description": "An exhibition showcasing cutting-edge technology from various industries.",
+        "organizer": "Tech Innovations Inc."
+      },
+      {
+        "id": 3,
+        "title": "Startup Pitch Day",
+        "date": "2024-05-05",
+        "location": "London, UK",
+        "description": "A platform for startups to pitch their ideas to potential investors.",
+        "organizer": "Startup Hub"
+      },
+      {
+        "id": 4,
+        "title": "Blockchain Summit",
+        "date": "2024-06-20",
+        "location": "Singapore",
+        "description": "A summit focusing on the applications and future of blockchain technology.",
+        "organizer": "Crypto Events Ltd."
+      },
+      {
+        "id": 5,
+        "title": "Global Health Conference",
+        "date": "2024-07-08",
+        "location": "Geneva, Switzerland",
+        "description": "An international conference addressing global health challenges and solutions.",
+        "organizer": "World Health Organization"
+      },
+      {
+        "id": 6,
+        "title": "Digital Marketing Forum",
+        "date": "2024-08-15",
+        "location": "Los Angeles, CA",
+        "description": "A forum discussing the latest trends and strategies in digital marketing.",
+        "organizer": "Marketing Masters Inc."
+      },
+      {
+        "id": 7,
+        "title": "Space Exploration Symposium",
+        "date": "2024-09-25",
+        "location": "Houston, TX",
+        "description": "A symposium exploring the future of space exploration and colonization.",
+        "organizer": "Space Frontier Foundation"
+      },
+      {
+        "id": 8,
+        "title": "Artificial Intelligence Workshop",
+        "date": "2024-10-12",
+        "location": "Berlin, Germany",
+        "description": "A workshop providing hands-on experience with AI tools and technologies.",
+        "organizer": "AI Institute Berlin"
+      },
+      {
+        "id": 9,
+        "title": "Renewable Energy Summit",
+        "date": "2024-11-05",
+        "location": "Tokyo, Japan",
+        "description": "A summit focusing on renewable energy sources and sustainable development.",
+        "organizer": "GreenTech Solutions"
+      },
+      {
+        "id": 10,
+        "title": "Future of Work Conference",
+        "date": "2024-12-18",
+        "location": "Sydney, Australia",
+        "description": "A conference exploring the changing landscape of work in the digital age.",
+        "organizer": "Workforce Innovations Pty Ltd."
+      }
+    ]
+  }
+  
