@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 import json
 
 app = FastAPI()
@@ -6,13 +7,21 @@ app = FastAPI()
 # Provide the correct path to the JSON file
 json_file_path = 'C:/Users/anik1/Documents/WebPractise/events.json'
 
-
 # Read the JSON file
 with open(json_file_path, 'r') as file:
     data = json.load(file)
 
 # Extract events from the JSON data
 events = data['events']
+
+# CORS middleware configuration
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # Replace with your frontend URL
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE"],
+    allow_headers=["*"],
+)
 
 @app.get("/events")
 async def get_all_events():
